@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "ES2016", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "ES6",                       
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,                                   
+    "skipLibCheck": true                   
+  }
+}

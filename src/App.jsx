@@ -1,5 +1,8 @@
+// This is main component for controling state and view
+
 import "./App.css";
 
+//helper Class
 import classNames from "classnames";
 
 // State helpers
@@ -11,6 +14,7 @@ import Footer from "./components/Footer";
 import Modal from "./components/Modal";
 import Menu from "./components/Menu";
 
+//initial State
 const initialState = {
   currentGameMoves: [],
   history: {
@@ -19,13 +23,16 @@ const initialState = {
   },
 };
 
+//Main App Class
 export default function App() {
+  // Destructuring local storage
   const [state, setState] = useLocalStorage("game-state-key", initialState);
 
   // Derived state (updates on every state change)
   const game = deriveGame(state);
   const stats = deriveStats(state);
 
+  // Reset game
   const resetGame = (isNewRound) => {
     setState((prevState) => {
       const stateCopy = structuredClone(prevState);

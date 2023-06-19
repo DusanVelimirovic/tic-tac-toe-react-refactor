@@ -57,6 +57,7 @@ export default function App() {
     });
   };
 
+  // Keep track of handler moves
   const handlePlayerMove = (squareId, player) => {
     setState((prev) => {
       const { currentGameMoves } = structuredClone(prev);

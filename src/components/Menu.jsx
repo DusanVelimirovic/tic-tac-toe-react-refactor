@@ -1,4 +1,6 @@
+// Helper class
 import classNames from "classnames";
+
 import { useState } from "react";
 
 import "./Menu.css";

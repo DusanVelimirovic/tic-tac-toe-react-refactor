@@ -1,3 +1,5 @@
+// File witch implement logic for game stats and current moves
+
 const players = [
   {
     id: 1,

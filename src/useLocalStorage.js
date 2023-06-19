@@ -1,4 +1,8 @@
+// File witch implement logic for save state in localStorage
+
+// UseCallback is a React Hook that lets you cache a function definition between re-renders.
 import { useCallback } from "react";
+
 import { useEffect, useState } from "react";
 
 /**

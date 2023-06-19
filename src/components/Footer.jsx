@@ -4,19 +4,9 @@ export default function Footer() {
   return (
     <footer>
       <p>
-        Original project by
-        <a href="https://twitter.com/megfdev">@megfdev</a> and
-        <a href="https://twitter.com/Ivan00sto">@Ivan00Sto</a>
-      </p>
+        Project Developed by
+        <a href="https://dusanvelimirovic.com/" target="_blank">Dusan Velimirovic</a>
 
-      <p>
-        Refactored by
-        <a
-          href="https://twitter.com/zg_dev"
-          style={{ color: "var(--turquoise)" }}
-        >
-          @zg_dev
-        </a>
       </p>
     </footer>
   );
